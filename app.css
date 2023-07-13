@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#navbar1{
+  background-color: rgb(32, 37, 42);
+  margin-top: 0px;
+  width: 100%;
+  height: 60px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+}
+#navbar2{
+  background-color: rgb(28, 44, 60);
+  height: 30px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  font-family: inherit;;
+
+}
+#amazonlogo{
+  border-radius: 5px;
+  
+}
+#searchbar{
+  display: flex;
+  flex: 1;
+  margin-left: 12px;
+  max-width: 50%;
+  margin-right: 12px;
+  
+}
+#searchbar button{
+  background-color: rgb(212, 152, 41);
+  border: 0;
+  margin-left: 0;
+  
+}
+#nav-header1  {
+  color: white;
+  line-height: 2px;
+  display: flex;
+  align-content: baseline;
+}
+#nav-header1:hover{
+  border: 1px solid white;
+}
+.nav-header2{
+  color: white;
+  line-height: 0;
+}
+.nav-header3{
+  color: white;
+  line-height: 0;
+}
+#searchbar .form-inline{
+color: white;
+}
+
+
+
+
+#leftclock button{
+  height: 65px;
+  width: 55px;
+  border:none;
+  margin: 3px ;
+
+}
+#leftclock button:hover{
+  box-shadow: 0 0 3px 3px rgba(215, 215, 9, 0.647);
+}
+
+}
+#clock :hover{
+  filter: brightness(0.8);
+    transition: 0.6s ease;
+    width:100%;
+    height: calc(100vh - 300px);
+}
+
+
+
+
+
+#maincontainer{
+ margin-top: 50px;
+ margin-left: 20px;
+ margin-bottom: 40px;
+
+ height: 2200px;
+
+}
+
+
+
+#content h2{
+font-size: 24px;
+}
+#content span{
+  color: red;
+
+}
+#clocknames{
+  margin-bottom: 10px;
+}
+#clocknames button{
+  opacity: 0.3;
+  margin: 3px 1px;
+  
+}
+#clocknames button:hover{
+  opacity: 1;
+}
+
+#clockbutton{
+  margin-top: 5px;
+}
+
+#clockbutton button{
+  margin: 3px 1px;
+  opacity: 0.4;
+}
+#clockbutton button:hover{
+  opacity: 1;
+
+}
+#brand{
+  margin-top:20px ;
+}
+#brand span{
+  color: rgb(49, 164, 218);;
+}
+#brand2 span{
+  color: rgb(49, 164, 218);;
+}
+
+
+
+
+#container3{
+  border: 0.5px solid grey;
+  border-radius: 6px;
+  padding-top: 15px;
+ 
+}
+#container3 span{
+ 
+  color: rgb(49, 164, 218);
+}
+#container3 span:hover{
+  text-decoration: underline;
+}
+
+#deliverylocation{
+  color: green;
+}
+#deliverylocation:hover{
+  text-decoration:underline;
+}
+.dropdown{
+  display: flex;
+}
+
+#buybuttons button {
+  width:180px ;
+  border-radius: 30px;
+  background-color: rgb(229, 229, 52);
+  cursor: pointer;
+  margin: 4px;
+
+}
+#buybuttons button:hover{
+  background-color: rgb(126, 126, 8);
+;
+}
+
+#buybuttons :nth-of-type(2){
+  background-color: orange;
+  cursor: pointer;
+
+}
+
+#buybuttons :nth-of-type(2):hover{
+  background-color: rgb(161, 108, 9);
+}
+#shipping{
+  border-bottom: 0.8px solid grey;
+}
+#shipping span{
+color: rgb(49, 164, 218);
+}
+
+#shipping span:hover{
+  text-decoration: underline;
+}
+#addtowish button{
+  width: 240px;
+  margin-top: 12px;
+  border-radius: 05px;
+}
+#addtowish button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
